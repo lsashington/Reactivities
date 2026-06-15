@@ -480,5 +480,7 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
-!/API/appsettings.json
-!/API/reactivities.db
+
+# Ignore API secrets and database
+/API/appsettings.json
+/API/reactivities.db
