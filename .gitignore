@@ -482,5 +482,5 @@ $RECYCLE.BIN/
 *.swp
 
 # Ignore API secrets and database
-/API/appsettings.json
-/API/reactivities.db
+**/appsettings.json
+**/reactivities.db
